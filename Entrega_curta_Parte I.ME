@@ -1,0 +1,14 @@
+Explicação de 3 a 5 linhas dizendo onde foram usadas repetição, condicionais e funções:
+
+O programa utiliza duas funções: fazer_pergunta(numero), que exibe cada pergunta e coleta
+a resposta do usuário, e classificar_investigado(total_sim), que devolve a classificação
+final. A repetição aparece em dois momentos: o while do programa principal repete as
+perguntas 5 vezes, e o while dentro de fazer_pergunta garante que só s ou n sejam aceitos. 
+As condicionais com if/elif/else escolhem qual pergunta exibir e determinam a classificação 
+final.
+
+Uma frase explicando como o total de respostas positivas determina a classificação:
+
+A cada resposta "sim" o programa soma 1 ao contador total_positivas, e ao final esse 
+número é comparado por faixas na função classificar_investigado — quanto mais "sins", 
+maior o grau de envolvimento, indo de Inocente (0 ou 1) até Assassino (5).
